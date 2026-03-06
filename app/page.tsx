@@ -95,11 +95,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Image Placeholder */}
-            <div className="bg-blue-100 rounded-xl overflow-hidden shadow-lg h-96 flex items-center justify-center">
-              <div className="text-center text-blue-600">
-                <p className="text-lg">Chlo's Photo</p>
-                <p className="text-sm">(Add image: /public/chlo-photo.jpg)</p>
-              </div>
+            <div className="rounded-xl overflow-hidden shadow-lg h-96">
+              <img src="/IMG_5714.JPG" alt="Chlo" className="w-full h-full object-cover" />
             </div>
             {/* Text Content */}
             <div>
