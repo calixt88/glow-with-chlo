@@ -325,10 +325,10 @@ export default function Home() {
       <section id="contact" className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-light mb-4 text-blue-600">
-            Contact Us
+            Come get your glow on!
           </h2>
           <p className="text-slate-600 mb-12">
-            Ready to start your skincare journey? Contact us today!
+            Start your skincare journey with us today.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -337,8 +337,8 @@ export default function Home() {
               <p className="text-slate-600">Denver, CO</p>
             </div>
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
-              <p className="font-semibold text-slate-900 mb-2">Email</p>
-              <p className="text-slate-600">contact@glowwithchlo.com</p>
+              <p className="font-semibold text-slate-900 mb-2">Hours</p>
+              <p className="text-slate-600">9am to 5pm</p>
             </div>
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
               <p className="font-semibold text-slate-900 mb-2">Phone</p>
