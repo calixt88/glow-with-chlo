@@ -331,7 +331,7 @@ export default function Home() {
             Start your skincare journey with us today.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
               <p className="font-semibold text-slate-900 mb-2">Address</p>
               <p className="text-slate-600">Denver, CO</p>
@@ -343,6 +343,10 @@ export default function Home() {
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
               <p className="font-semibold text-slate-900 mb-2">Instagram</p>
               <p className="text-slate-600">_glow.with.chlo_</p>
+            </div>
+            <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
+              <p className="font-semibold text-slate-900 mb-2">TikTok</p>
+              <p className="text-slate-600">glow.with.chlo_</p>
             </div>
           </div>
 
