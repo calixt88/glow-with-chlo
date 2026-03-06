@@ -183,121 +183,121 @@ export default function Home() {
               <h3 className="text-lg font-semibold text-slate-900">Waxing Services</h3>
             </div>
             <div className="border-t border-blue-200 pt-4">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-0 divide-x divide-blue-200">
                 {/* Waxing Part 1 */}
-                <div className="space-y-3">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Lip Wax</p>
-                      <p className="text-sm text-slate-600">15 minutes</p>
+                <div className="space-y-4 px-6">
+                  <div>
+                    <p className="font-medium text-slate-900">Lip Wax</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">15 min</p>
+                      <p className="font-semibold text-blue-600">$15</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$15</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Cheek Wax</p>
-                      <p className="text-sm text-slate-600">15 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Cheek Wax</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">15 min</p>
+                      <p className="font-semibold text-blue-600">$15</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$15</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Chin Wax</p>
-                      <p className="text-sm text-slate-600">15 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Chin Wax</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">15 min</p>
+                      <p className="font-semibold text-blue-600">$15</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$15</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Brow/Tint Wax</p>
-                      <p className="text-sm text-slate-600">45 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Brow/Tint Wax</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">45 min</p>
+                      <p className="font-semibold text-blue-600">$25</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$25</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Nostril</p>
-                      <p className="text-sm text-slate-600">20 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Nostril</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">20 min</p>
+                      <p className="font-semibold text-blue-600">$10</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$10</p>
                   </div>
                 </div>
 
                 {/* Waxing Part 2 */}
-                <div className="space-y-3">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Full Face</p>
-                      <p className="text-sm text-slate-600">60 minutes</p>
+                <div className="space-y-4 px-6">
+                  <div>
+                    <p className="font-medium text-slate-900">Full Face</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">60 min</p>
+                      <p className="font-semibold text-blue-600">$40</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$40</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Back</p>
-                      <p className="text-sm text-slate-600">45 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Back</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">45 min</p>
+                      <p className="font-semibold text-blue-600">$40</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$40</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Chest</p>
-                      <p className="text-sm text-slate-600">45 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Chest</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">45 min</p>
+                      <p className="font-semibold text-blue-600">$40</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$40</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Full Leg</p>
-                      <p className="text-sm text-slate-600">45 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Full Leg</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">45 min</p>
+                      <p className="font-semibold text-blue-600">$40</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$40</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Half Leg</p>
-                      <p className="text-sm text-slate-600">45 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Half Leg</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">45 min</p>
+                      <p className="font-semibold text-blue-600">$40</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$40</p>
                   </div>
                 </div>
 
                 {/* Waxing Part 3 */}
-                <div className="space-y-3">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Full Arm</p>
-                      <p className="text-sm text-slate-600">45 minutes</p>
+                <div className="space-y-4 px-6">
+                  <div>
+                    <p className="font-medium text-slate-900">Full Arm</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">45 min</p>
+                      <p className="font-semibold text-blue-600">$40</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$40</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Half Arm</p>
-                      <p className="text-sm text-slate-600">35 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Half Arm</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">35 min</p>
+                      <p className="font-semibold text-blue-600">$30</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$30</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Bikini</p>
-                      <p className="text-sm text-slate-600">60 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Bikini</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">60 min</p>
+                      <p className="font-semibold text-blue-600">$25</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$25</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Brazilian</p>
-                      <p className="text-sm text-slate-600">60 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Brazilian</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">60 min</p>
+                      <p className="font-semibold text-blue-600">$40</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$40</p>
                   </div>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="font-medium text-slate-900">Underarms</p>
-                      <p className="text-sm text-slate-600">30 minutes</p>
+                  <div>
+                    <p className="font-medium text-slate-900">Underarms</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-sm text-slate-600">30 min</p>
+                      <p className="font-semibold text-blue-600">$25</p>
                     </div>
-                    <p className="font-semibold text-blue-600">$25</p>
                   </div>
                 </div>
               </div>
