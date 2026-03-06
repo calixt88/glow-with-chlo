@@ -13,7 +13,7 @@ export default function Home() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 300);
     };
-    
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -41,7 +41,7 @@ export default function Home() {
           </button>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="sm:hidden absolute right-4"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
@@ -75,10 +75,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/20"></div>
         {/* Text and Button positioned absolutely at bottom */}
         <div className="absolute bottom-20 left-0 right-0 flex flex-col items-center justify-center">
-<p className="text-3xl md:text-4xl font-light text-blue-900 italic mb-12">
-  Achieving Radiant, Glowing Skin
-</p>
-          <button 
+          <p className="text-3xl md:text-4xl font-light text-blue-900 italic mb-12">
+            Achieving Radiant, Glowing Skin
+          </p>
+          <button
             onClick={() => {
               const aboutSection = document.getElementById('about');
               aboutSection?.scrollIntoView({ behavior: 'smooth' });
@@ -90,6 +90,19 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-gradient-to-b from-blue-50 to-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-blue-500 mb-4">
+            Our Mission
+          </p>
+          <h2 className="text-5xl font-light text-blue-600 mb-6">
+            Skincare that feels personal, calming, and confidence-building.
+          </h2>
+          <p className="text-lg leading-relaxed text-slate-600 max-w-3xl mx-auto">
+            We&apos;re here to create a welcoming space where every appointment feels restorative and every treatment is designed to help you feel refreshed, cared for, and more confident in your natural glow.
+          </p>
+        </div>
+      </section>
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
@@ -121,7 +134,13 @@ export default function Home() {
               <p className="text-slate-700 leading-relaxed mb-8">
                 I'm so excited to be on this journey and can't wait to help you feel confident, refreshed, and glowing in your skin. ✨
               </p>
-              <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full hover:shadow-xl transition transform hover:scale-105">
+              <button
+                onClick={() => {
+                  const servicesSection = document.getElementById('services');
+                  servicesSection?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full hover:shadow-xl transition transform hover:scale-105"
+              >
                 Learn More
               </button>
             </div>
@@ -336,23 +355,19 @@ export default function Home() {
               <p className="font-semibold text-slate-900 mb-2">Business</p>
               <p className="text-slate-600">695 S Colorado Blvd</p>
               <p className="text-slate-600">Denver, CO 80246</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
-              <p className="font-semibold text-slate-900 mb-2">Hours</p>
               <p className="text-slate-600">9:00am to 5:00pm</p>
             </div>
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
               <p className="font-semibold text-slate-900 mb-2">Email</p>
               <p className="text-slate-600">glowwithchlo@gmail.com</p>
             </div>
+            <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
+              <p className="font-semibold text-slate-900 mb-3">Socials</p>
+              <p className="text-slate-600 mb-2">Instagram: _glow.with.chlo_</p>
+              <p className="text-slate-600">TikTok: glow.with.chlo_</p>
+            </div>
           </div>
-          
-          <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600 max-w-md mx-auto">
-            <p className="font-semibold text-slate-900 mb-3">Socials</p>
-            <p className="text-slate-600 mb-2">Instagram: _glow.with.chlo_</p>
-            <p className="text-slate-600">TikTok: glow.with.chlo_</p>
-          </div>
-          
+
           <div className="mt-8"></div>
 
           <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full hover:shadow-xl transition transform hover:scale-105">
@@ -382,4 +397,3 @@ export default function Home() {
     </div>
   );
 }
-
