@@ -36,7 +36,7 @@ export default function Home() {
           </div>
 
           {/* Book Now Button - Desktop */}
-          <button className="hidden sm:block absolute right-4 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium">
+          <button className="hidden sm:block absolute right-4 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium hover:shadow-xl transition transform hover:scale-105">
             Book Now
           </button>
 
@@ -56,7 +56,7 @@ export default function Home() {
             <Link href="#about" className="text-slate-700 hover:text-blue-600">About</Link>
             <Link href="#services" className="text-slate-700 hover:text-blue-600">Services</Link>
             <Link href="#contact" className="text-slate-700 hover:text-blue-600">Contact</Link>
-            <button className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full w-full font-medium">
+            <button className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full w-full font-medium hover:shadow-xl transition transform hover:scale-105">
               Book Now
             </button>
           </div>
@@ -75,9 +75,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/20"></div>
         {/* Text and Button positioned absolutely at bottom */}
         <div className="absolute bottom-20 left-0 right-0 flex flex-col items-center justify-center">
-          <p className="text-4xl md:text-5xl font-light text-blue-600 mb-12">
-            Achieving Radiant, Glowing Skin
-          </p>
+<p className="text-3xl md:text-4xl font-light text-blue-900 italic mb-12">
+  Achieving Radiant, Glowing Skin
+</p>
           <button 
             onClick={() => {
               const aboutSection = document.getElementById('about');
@@ -101,15 +101,27 @@ export default function Home() {
             {/* Text Content */}
             <div>
               <h2 className="text-5xl font-light text-blue-600 mb-6">
-                About Chlo
+                About Chloe
               </h2>
-              <p className="text-xl text-slate-700 leading-relaxed mb-6">
-                Meet Chlo, your licensed esthetician dedicated to bringing out your natural glow. With years of expertise in skincare and beauty treatments, Chlo combines passion, knowledge, and artistry to deliver transformative results.
+              <p className="text-slate-700 leading-relaxed mb-4">
+                Hi, I'm Chloe, the face behind Glow with Chlo.
               </p>
-              <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                Every client is treated as an individual with unique skincare needs. Chlo believes in creating personalized treatment plans that not only improve your skin but boost your confidence every single day.
+              <p className="text-slate-700 leading-relaxed mb-4">
+                I'm currently an esthetician student at Elite Esthetics Academy in Denver, where I'm pursuing my passion for skincare and helping people feel confident in their own skin. My mission is to help clients achieve radiant, glowing skin while creating a relaxing space where they can truly take care of themselves.
               </p>
-              <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full">
+              <p className="text-slate-700 leading-relaxed mb-4">
+                My love for skincare began at a young age. I started getting facials when I was just 14 years old while navigating my own acne journey. During that time, my esthetician became a huge inspiration to me and showed me how powerful skincare and self care can be. That experience stayed with me and ultimately led me to pursue this career so I can help others the same way she helped me.
+              </p>
+              <p className="text-slate-700 leading-relaxed mb-4">
+                Before entering the esthetics world, I proudly served four years in the United States Air Force. That experience shaped my discipline, work ethic, and dedication, qualities I now bring into my career and the care I give my clients.
+              </p>
+              <p className="text-slate-700 leading-relaxed mb-4">
+                Outside of skincare, I love staying active and spending time outdoors. You'll often find me working out, doing Pilates, or enjoying the beautiful Colorado outdoors. Living a healthy and balanced lifestyle inspires the way I approach skincare, focusing on both inner wellness and outer glow.
+              </p>
+              <p className="text-slate-700 leading-relaxed mb-8">
+                I'm so excited to be on this journey and can't wait to help you feel confident, refreshed, and glowing in your skin. ✨
+              </p>
+              <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full hover:shadow-xl transition transform hover:scale-105">
                 Learn More
               </button>
             </div>
@@ -306,30 +318,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Reviews Section */}
-      <section id="reviews" className="py-20 px-4 bg-blue-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-light text-center mb-12 text-blue-600">
-            Testimonials
-          </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((review) => (
-              <div key={review} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition">
-                <div className="flex items-center gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Sparkles key={i} className="w-4 h-4 fill-amber-400 text-blue-400" />
-                  ))}
-                </div>
-                <p className="text-slate-700 mb-4">
-                  "Chlo's treatments have completely transformed my skin. She really takes the time to understand your concerns and creates a personalized plan. Highly recommend!"
-                </p>
-                <p className="font-semibold text-slate-900">Happy Client {review}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Testimonials section removed */}
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 bg-white">
