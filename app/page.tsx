@@ -75,7 +75,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/20"></div>
         {/* Text and Button positioned absolutely at bottom */}
         <div className="absolute bottom-20 left-0 right-0 flex flex-col items-center justify-center">
-          <p className="text-4xl md:text-5xl font-bold text-white mb-12" style={{ fontFamily: "'Brush Script MT', 'Lucida Handwriting', cursive" }}>
+          <p className="text-4xl md:text-5xl font-light text-blue-600 mb-12">
             Achieving Radiant, Glowing Skin
           </p>
           <button 
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
             {/* Text Content */}
             <div>
-              <h2 className="text-5xl font-bold text-blue-700 mb-6" style={{ fontFamily: "'Brush Script MT', 'Lucida Handwriting', cursive" }}>
+              <h2 className="text-5xl font-light text-blue-600 mb-6">
                 About Chlo
               </h2>
               <p className="text-xl text-slate-700 leading-relaxed mb-6">
@@ -309,7 +309,7 @@ export default function Home() {
       {/* Reviews Section */}
       <section id="reviews" className="py-20 px-4 bg-blue-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-center mb-12 text-blue-700" style={{ fontFamily: "'Brush Script MT', 'Lucida Handwriting', cursive" }}>
+          <h2 className="text-5xl font-light text-center mb-12 text-blue-600">
             Testimonials
           </h2>
 
@@ -334,7 +334,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-4 text-blue-700" style={{ fontFamily: "'Brush Script MT', 'Lucida Handwriting', cursive" }}>
+          <h2 className="text-5xl font-light mb-4 text-blue-600">
             Contact Us
           </h2>
           <p className="text-slate-600 mb-12">
