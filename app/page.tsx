@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="min-h-screen relative overflow-hidden" style={{
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/background.PNG')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
