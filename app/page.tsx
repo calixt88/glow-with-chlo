@@ -130,8 +130,8 @@ export default function Home() {
       </section>
       <section id="services" className="py-20 px-4 bg-blue-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-slate-900">
-            Our Services
+          <h2 className="text-5xl font-light text-center mb-4 text-blue-600">
+            Services
           </h2>
           <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
             Professional treatments with pricing and time estimates
@@ -331,24 +331,29 @@ export default function Home() {
             Start your skincare journey with us today.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
-              <p className="font-semibold text-slate-900 mb-2">Address</p>
-              <p className="text-slate-600">Denver, CO</p>
+              <p className="font-semibold text-slate-900 mb-2">Business</p>
+              <p className="text-slate-600">695 S Colorado Blvd</p>
+              <p className="text-slate-600">Denver, CO 80246</p>
             </div>
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
               <p className="font-semibold text-slate-900 mb-2">Hours</p>
-              <p className="text-slate-600">9am to 5pm</p>
+              <p className="text-slate-600">9:00am to 5:00pm</p>
             </div>
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
-              <p className="font-semibold text-slate-900 mb-2">Instagram</p>
-              <p className="text-slate-600">_glow.with.chlo_</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
-              <p className="font-semibold text-slate-900 mb-2">TikTok</p>
-              <p className="text-slate-600">glow.with.chlo_</p>
+              <p className="font-semibold text-slate-900 mb-2">Email</p>
+              <p className="text-slate-600">glowwithchlo@gmail.com</p>
             </div>
           </div>
+          
+          <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600 max-w-md mx-auto">
+            <p className="font-semibold text-slate-900 mb-3">Socials</p>
+            <p className="text-slate-600 mb-2">Instagram: _glow.with.chlo_</p>
+            <p className="text-slate-600">TikTok: glow.with.chlo_</p>
+          </div>
+          
+          <div className="mt-8"></div>
 
           <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full hover:shadow-xl transition transform hover:scale-105">
             Book Your Appointment
