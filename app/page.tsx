@@ -341,8 +341,8 @@ export default function Home() {
               <p className="text-slate-600">9am to 5pm</p>
             </div>
             <div className="bg-blue-50 rounded-lg shadow p-6 text-center border-t-2 border-blue-600">
-              <p className="font-semibold text-slate-900 mb-2">Phone</p>
-              <p className="text-slate-600">Coming Soon</p>
+              <p className="font-semibold text-slate-900 mb-2">Instagram</p>
+              <p className="text-slate-600">_glow.with.chlo_</p>
             </div>
           </div>
 
