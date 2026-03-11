@@ -93,13 +93,13 @@ export default function Home() {
       <section className="py-20 px-4 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm font-semibold tracking-[0.3em] uppercase text-blue-500 mb-4">
-            Our Mission
+            My Mission
           </p>
           <h2 className="text-5xl font-light text-blue-600 mb-6">
-            Skincare that feels personal, calming, and confidence-building.
+            At Dream Med Spa, skincare feels personal, calming, & confidence-building.
           </h2>
           <p className="text-lg leading-relaxed text-slate-600 max-w-3xl mx-auto">
-            We&apos;re here to create a welcoming space where every appointment feels restorative and every treatment is designed to help you feel refreshed, cared for, and more confident in your natural glow.
+            My mission is to create a space where everyone can achieve naturally glowing skin through customized treatments, skincare education, and a passion for helping people feel confident in their own skin.
           </p>
         </div>
       </section>
@@ -114,7 +114,7 @@ export default function Home() {
             {/* Text Content */}
             <div>
               <h2 className="text-5xl font-light text-blue-600 mb-6">
-                About Chloe
+                About Me
               </h2>
               <p className="text-slate-700 leading-relaxed mb-4">
                 Hi, I'm Chloe, the face behind Glow with Chlo.
