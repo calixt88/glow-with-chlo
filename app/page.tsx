@@ -93,13 +93,13 @@ export default function Home() {
       <section className="py-20 px-4 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm font-semibold tracking-[0.3em] uppercase text-blue-500 mb-4">
-            My Mission
+            Our Mission
           </p>
           <h2 className="text-5xl font-light text-blue-600 mb-6">
             At Dream Med Spa, skincare feels personal, calming, & confidence-building.
           </h2>
           <p className="text-lg leading-relaxed text-slate-600 max-w-3xl mx-auto">
-            My mission is to create a space where everyone can achieve naturally glowing skin through customized treatments, skincare education, and a passion for helping people feel confident in their own skin.
+            Our mission is to create a space where everyone can achieve naturally glowing skin through customized treatments, skincare education, and a passion for helping people feel confident in their own skin.
           </p>
         </div>
       </section>
@@ -219,35 +219,35 @@ export default function Home() {
                 <div className="space-y-4 px-6">
                   <div>
                     <p className="font-medium text-slate-900">Lip Wax</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">15 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$15</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Cheek Wax</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">15 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$15</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Chin Wax</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">15 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$15</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Brow/Tint Wax</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">45 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$25</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Nostril</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">20 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$10</p>
                     </div>
@@ -258,35 +258,35 @@ export default function Home() {
                 <div className="space-y-4 px-6">
                   <div>
                     <p className="font-medium text-slate-900">Full Face</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">60 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$40</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Back</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">45 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$40</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Chest</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">45 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$40</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Full Leg</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">45 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$40</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Half Leg</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">45 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$40</p>
                     </div>
@@ -297,35 +297,35 @@ export default function Home() {
                 <div className="space-y-4 px-6">
                   <div>
                     <p className="font-medium text-slate-900">Full Arm</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">45 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$40</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Half Arm</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">35 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$30</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Bikini</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">60 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$25</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Brazilian</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">60 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$40</p>
                     </div>
                   </div>
                   <div>
                     <p className="font-medium text-slate-900">Underarms</p>
-                    <div className="flex items-center justify-between gap-4 mt-1">
+                    <div className="flex items-start justify-between gap-4 mt-1">
                       <p className="text-sm text-slate-600">30 min</p>
                       <p className="w-16 text-right font-semibold text-blue-600">$25</p>
                     </div>
@@ -397,6 +397,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
